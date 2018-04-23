@@ -79,3 +79,12 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+admin:
+  username: aurumsy
+  password_hash: $2a$10$48Grguewczzc820I4CJ0i.PB2h20BbhZKU12TJsymUSSfO2M4RQ8W
+  secret: aurumsy
+  deployCommand: './hexo-deploy.sh'
+
+
+disqus_shortname: freeyiyi1993
