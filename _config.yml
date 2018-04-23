@@ -5,10 +5,10 @@
 # Site
 title: Beyond Reality
 subtitle:
-description:
+description: Beyond Reality
 keywords:
 author: Aurumsy
-language:
+language: zh-Hans
 timezone:
 
 # URL
@@ -73,7 +73,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: next
+
+#scheme: Muse
+#scheme: Mist
+scheme: Pisces
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -84,7 +89,20 @@ admin:
   username: aurumsy
   password_hash: $2a$10$48Grguewczzc820I4CJ0i.PB2h20BbhZKU12TJsymUSSfO2M4RQ8W
   secret: aurumsy
+
+  # username: shiyuj
+  # password_hash: $2a$10$E0vkKQApYTYv1PfJchRtrOZjI.JN3t1KFXsYTThXsDL/a8mpDDxWi
+  # secret: aurumsy
   deployCommand: './hexo-deploy.sh'
 
 
-disqus_shortname: freeyiyi1993
+disqus_shortname: beyond-realities
+
+algolia:
+  applicationID: '2H4Q2L65DS'
+  apiKey: 'a11ba3226b4d58486e15509f7739acd1'
+  indexName: 'aurumsy'
+  # searchOnlyAPIKey: 'a11ba3226b4d58486e15509f7739acd1'
+  adminApiKey: '2f6abd3a56e55293b09bc1663da9956f'
+  # MonitoringAPIKey: '7b25313ce47c6a6db996ea3c28c823fb'
+  chunkSize: 5000
