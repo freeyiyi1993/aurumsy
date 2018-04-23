@@ -1,8 +1,6 @@
----
 title: 我是标题
-date: 2018-04-23 19:51:09
-tags: [tag, haha]
-category: [haha, test]
+date: 2018-04-23 19:51:00
 ---
-
 我是测试内容
+
+测试实时发布渲染
